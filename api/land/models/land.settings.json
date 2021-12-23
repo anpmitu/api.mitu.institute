@@ -17,7 +17,9 @@
       "components": [
         "sections.section-hero",
         "sections.section-required-docs",
-        "sections.section-no-exam"
+        "sections.section-no-exam",
+        "sections.section-about-us",
+        "sections.how-process-goes"
       ]
     }
   }

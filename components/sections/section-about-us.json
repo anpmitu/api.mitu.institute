@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_section_aboutuses",
+  "info": {
+    "name": "sectionAboutUs",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.list-of-pair-strings"
+    }
+  }
+}
