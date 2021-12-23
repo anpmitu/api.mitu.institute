@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_forms",
+  "info": {
+    "name": "form",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "cta": {
+      "type": "string"
+    }
+  }
+}

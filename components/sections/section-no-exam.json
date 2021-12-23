@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_section_no_exams",
+  "info": {
+    "name": "sectionNoExam",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    }
+  }
+}
