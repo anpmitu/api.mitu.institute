@@ -24,6 +24,12 @@
     },
     "slug": {
       "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

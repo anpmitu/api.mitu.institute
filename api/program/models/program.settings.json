@@ -100,8 +100,8 @@
       "dominant": true
     },
     "study_field": {
-      "model": "study-field",
-      "via": "programs"
+      "via": "programs",
+      "model": "study-field"
     },
     "category": {
       "via": "programs",
@@ -191,8 +191,8 @@
       }
     },
     "sub_study_fields": {
-      "collection": "sub-study-fields",
       "via": "programs",
+      "collection": "sub-study-fields",
       "dominant": true
     }
   }
