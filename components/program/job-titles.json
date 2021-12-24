@@ -2,12 +2,29 @@
   "collectionName": "components_program_job_titles",
   "info": {
     "name": "jobTitles",
-    "icon": "air-freshener"
+    "icon": "air-freshener",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "richtext"
+    },
+    "position": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "salary": {
+      "type": "biginteger"
     }
   }
 }

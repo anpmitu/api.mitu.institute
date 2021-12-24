@@ -2,15 +2,28 @@
   "collectionName": "components_program_for_whoms",
   "info": {
     "name": "forWhom",
-    "icon": "fingerprint"
+    "icon": "fingerprint",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "desc": {
       "type": "richtext"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

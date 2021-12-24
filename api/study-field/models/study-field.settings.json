@@ -30,7 +30,9 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "uid",
+      "targetField": "title",
+      "required": false
     },
     "programs": {
       "via": "study_field",

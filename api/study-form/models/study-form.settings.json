@@ -23,7 +23,9 @@
       "collection": "program"
     },
     "slug": {
-      "type": "string"
+      "type": "uid",
+      "targetField": "title",
+      "required": false
     },
     "title": {
       "type": "string"

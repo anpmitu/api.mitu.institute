@@ -16,7 +16,9 @@
       "type": "string"
     },
     "slug": {
-      "type": "string"
+      "type": "uid",
+      "targetField": "title",
+      "required": false
     },
     "programs": {
       "via": "sub_study_fields",
