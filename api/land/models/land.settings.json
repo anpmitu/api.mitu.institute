@@ -19,7 +19,11 @@
         "sections.section-required-docs",
         "sections.section-no-exam",
         "sections.section-about-us",
-        "sections.how-process-goes"
+        "sections.how-process-goes",
+        "sections.section-study-format",
+        "sections.section-your-future-diploma",
+        "sections.section-form",
+        "sections.section-faq"
       ]
     }
   }
