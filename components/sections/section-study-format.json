@@ -1,7 +1,7 @@
 {
   "collectionName": "components_sections_section_study_formats",
   "info": {
-    "name": "sectionStudyFormat",
+    "name": "SectionTrainingFormat",
     "icon": "arrows-alt",
     "description": ""
   },

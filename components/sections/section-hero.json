@@ -1,7 +1,7 @@
 {
   "collectionName": "components_land_section_heroes",
   "info": {
-    "name": "sectionHero",
+    "name": "SectionHero",
     "icon": "atom",
     "description": ""
   },

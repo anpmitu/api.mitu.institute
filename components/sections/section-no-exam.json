@@ -1,19 +1,22 @@
 {
   "collectionName": "components_sections_section_no_exams",
   "info": {
-    "name": "sectionNoExam",
-    "icon": "allergies"
+    "name": "SectionEnterWithoutExam",
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "desc": {
       "type": "string"
     },
     "cta": {
       "type": "string"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title"
     }
   }
 }

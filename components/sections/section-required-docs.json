@@ -1,7 +1,7 @@
 {
   "collectionName": "components_land_sections_section_required_docs",
   "info": {
-    "name": "sectionRequiredDocs",
+    "name": "SectionLeastDocuments",
     "icon": "bars",
     "description": ""
   },

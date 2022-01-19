@@ -7,23 +7,13 @@
   },
   "options": {},
   "attributes": {
-    "desc": {
-      "type": "richtext"
-    },
     "title": {
       "type": "component",
       "repeatable": true,
       "component": "general.title"
     },
-    "picture": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "desc": {
+      "type": "richtext"
     }
   }
 }

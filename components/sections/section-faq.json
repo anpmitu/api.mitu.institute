@@ -1,7 +1,7 @@
 {
   "collectionName": "components_sections_section_faqs",
   "info": {
-    "name": "sectionFaq",
+    "name": "SectionFAQ",
     "icon": "balance-scale"
   },
   "options": {},
