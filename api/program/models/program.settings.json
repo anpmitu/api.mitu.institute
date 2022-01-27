@@ -42,8 +42,7 @@
         }
       },
       "type": "richtext",
-      "required": false,
-      "maxLength": 300
+      "required": false
     },
     "fullTitle": {
       "pluginOptions": {
@@ -198,6 +197,20 @@
         }
       },
       "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
