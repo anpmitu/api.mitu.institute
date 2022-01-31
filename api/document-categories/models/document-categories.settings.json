@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "document_categories",
+  "info": {
+    "name": "documentCategories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "document_subcategories": {
+      "via": "document_category",
+      "collection": "document-subcategories"
+    }
+  }
+}
