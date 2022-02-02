@@ -32,6 +32,9 @@
     "document_subcategory": {
       "via": "documents",
       "model": "document-subcategories"
+    },
+    "text": {
+      "type": "richtext"
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "document_categories",
   "info": {
-    "name": "documentCategories"
+    "name": "documentCategories",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,6 +18,10 @@
     "document_subcategories": {
       "via": "document_category",
       "collection": "document-subcategories"
+    },
+    "numeric_order": {
+      "via": "document_category",
+      "model": "numeric-order"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "document_subcategories",
+  "collectionName": "numeric_orders",
   "info": {
-    "name": "documentSubcategories",
+    "name": "numeric-order",
     "description": ""
   },
   "options": {
@@ -12,16 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "documents": {
-      "via": "document_subcategory",
-      "collection": "document"
+    "index": {
+      "type": "biginteger"
     },
     "document_category": {
-      "via": "document_subcategories",
+      "via": "numeric_order",
       "model": "document-categories"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
