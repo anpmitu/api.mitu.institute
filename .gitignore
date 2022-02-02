@@ -102,6 +102,8 @@ coverage
 ############################
 
 .env
+.env.main.env
+.env.main-marketing.env
 license.txt
 exports
 *.cache
