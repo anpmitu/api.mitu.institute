@@ -22,6 +22,10 @@
     "document_category": {
       "via": "document_subcategories",
       "model": "document-categories"
+    },
+    "category": {
+      "model": "category",
+      "via": "document_subcategory"
     }
   }
 }
