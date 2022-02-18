@@ -35,6 +35,9 @@
     },
     "text": {
       "type": "richtext"
+    },
+    "complicatedTable": {
+      "type": "boolean"
     }
   }
 }
