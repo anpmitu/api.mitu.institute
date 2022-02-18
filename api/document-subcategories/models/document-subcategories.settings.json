@@ -23,8 +23,8 @@
       "via": "document_subcategories",
       "model": "document-categories"
     },
-    "category": {
-      "model": "category",
+    "numeric_order": {
+      "model": "numeric-order",
       "via": "document_subcategory"
     }
   }

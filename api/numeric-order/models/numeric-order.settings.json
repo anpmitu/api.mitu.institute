@@ -21,6 +21,10 @@
     },
     "title": {
       "type": "string"
+    },
+    "document_subcategory": {
+      "via": "numeric_order",
+      "model": "document-subcategories"
     }
   }
 }

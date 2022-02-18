@@ -32,10 +32,6 @@
     },
     "type": {
       "type": "string"
-    },
-    "document_subcategory": {
-      "via": "category",
-      "model": "document-subcategories"
     }
   }
 }
