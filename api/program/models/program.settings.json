@@ -219,6 +219,14 @@
         }
       },
       "type": "string"
+    },
+    "teachersDescription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
