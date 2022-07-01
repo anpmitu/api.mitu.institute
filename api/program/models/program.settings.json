@@ -227,6 +227,16 @@
         }
       },
       "type": "string"
+    },
+    "studyCostDescItems": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.study-cost-desc-items"
     }
   }
 }
