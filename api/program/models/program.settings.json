@@ -80,8 +80,8 @@
       "type": "string"
     },
     "teachers": {
-      "collection": "teacher",
       "via": "programs",
+      "collection": "teacher",
       "dominant": true
     },
     "study_field": {
