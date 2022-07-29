@@ -28,13 +28,13 @@
       "via": "document_subcategory",
       "collection": "document"
     },
-    "document_category": {
-      "via": "document_subcategories",
-      "model": "document-categories"
-    },
     "numeric_order": {
       "via": "document_subcategory",
       "model": "numeric-order"
+    },
+    "document_category": {
+      "via": "document_subcategories",
+      "model": "document-categories"
     }
   }
 }
