@@ -237,6 +237,16 @@
         }
       },
       "component": "sections.study-cost-desc-items"
+    },
+    "studyingWithUsIt": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.studying-with-us-it"
     }
   }
 }
